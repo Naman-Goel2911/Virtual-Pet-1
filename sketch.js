@@ -68,7 +68,7 @@ function writeStocks(foodLeft)
   }
   else
   {
-    foodLeft = foodLeft - 1;
+    foodLeft = foodLeft;
   }
 
   database.ref('/').update({
